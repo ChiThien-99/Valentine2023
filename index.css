@@ -1,0 +1,137 @@
+/* Giao diện laptop */
+body {
+  background-image: url(./img/background_valentine.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.greeting {
+  color: white;
+  font-family: "Dancing Script", cursive;
+}
+.gift {
+  width: 350px;
+  height: 350px;
+  margin-top: 100px;
+  /* Căn giữa hình ảnh */
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  cursor: pointer;
+}
+.voucher {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: none;
+}
+.voucher_item {
+  width: 200px;
+  height: 150px;
+}
+.voucher_item > a {
+  text-decoration: none;
+}
+.voucher_item_img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: 10px 10px 23px black;
+}
+.voucher_item_text {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-size: 20px;
+}
+/* Trang howToUse */
+.buttonBack {
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+}
+.howTo {
+  width: 95%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 15px 15px 14px;
+  margin: auto;
+}
+.howTo_voucher_img {
+  width: 300px;
+  height: 200px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: deeppink !important;
+  font-family: "Dancing Script", cursive;
+  color: white;
+}
+.nav-pills .nav-item,
+.nav-pills .show > .nav-item {
+  color: white;
+  font-family: "Dancing Script", cursive;
+  width: 50%;
+}
+.nav-pills .nav-link,
+.nav-pills .show > .nav-link {
+  color: white;
+}
+.nav {
+  justify-content: space-around;
+}
+.tab-content {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.tab-content img {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+/* Giao diện điện thoại */
+@media screen and (max-width: 1284px) {
+  .greeting {
+    font-size: 80px;
+  }
+  .gift {
+    width: 600px;
+    height: 600px;
+  }
+  .voucher_item {
+    width: 400px;
+    height: 300px;
+  }
+  .voucher_item_text {
+    font-size: 40px;
+  }
+  .buttonBack {
+    font-size: 40px;
+  }
+  .howTo_voucher_img {
+    width: 400px;
+    height: 250px;
+  }
+  .nav-pills .nav-link,
+  .nav-pills .show > .nav-link {
+    font-size: 42px;
+  }
+  .tab-content{
+    font-size: 30px;
+  }
+}
