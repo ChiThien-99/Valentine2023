@@ -105,33 +105,37 @@ body {
   margin-bottom: 20px;
 }
 /* Giao diện điện thoại */
-@media screen and (max-width: 1284px) {
+@media screen and (max-width: 500px) {
   .greeting {
-    font-size: 80px;
+    font-size: 35px;
   }
   .gift {
-    width: 600px;
-    height: 600px;
-  }
-  .voucher_item {
-    width: 400px;
+    width: 300px;
     height: 300px;
   }
+  .voucher_item {
+    width: 140px;
+    height: 100px;
+  }
   .voucher_item_text {
-    font-size: 40px;
+    font-size: 15px;
   }
   .buttonBack {
-    font-size: 40px;
+    font-size: 20px;
   }
   .howTo_voucher_img {
-    width: 400px;
-    height: 250px;
+    width: 250px;
+    height: 180px;
   }
   .nav-pills .nav-link,
   .nav-pills .show > .nav-link {
-    font-size: 42px;
+    font-size: 25px;
   }
-  .tab-content{
-    font-size: 30px;
+  .tab-content {
+    font-size: 18px;
+  }
+  .tab-content img {
+    width: 80%;
+    height: 450px;
   }
 }
